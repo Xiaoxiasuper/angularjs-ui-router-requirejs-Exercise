@@ -1,0 +1,58 @@
+.all-cats,.all-cats-hover,.all-cats .link .popup-icon,.all-cats-hover .link .popup-icon,.menu-list,.menu-list .link,.menu-list .link .popup-icon,.menu-list .menu,.menu-list .menu .link,.menu-list .menu-selected,.menu-list .menu-hover,.menu-list .menu-selected .link,.menu-list .menu-hover .link,.menu-list .menu-selected .link .popup-icon,.menu-list .menu-hover .link .popup-icon{background:none;}.skin-box-bd .popup-content .cats-tree .fst-cat{list-style:none;float:left;width:188px;overflow:hidden;}.popup-content .cats-tree .snd-pop-inner,.ks-contentbox,.popup-content,.popup-content .cats-tree,.menu-popup-cats{padding:0px;}.popup-content .cats-tree,.menu-popup-cats,.ks-contentbox,.all-cats .link{background:none;}.ks-contentbox{padding-top:0;}.all-cats .link .popup-icon,.all-cats-hover .link .popup-icon{top:3px;}.menu-list .link .title,.menu-list .menu-selected .link .title,.menu-list .menu{width:auto;}.all-cats-hover .link .popup-icon{transform:rotate(0deg);}.popup-content .cats-tree{margin:0px;}.skin-box-bd{border:none;background-color:#FFFFFF;height:30px;}.menu-list .link{border:none;background:none;height:30px;line-height:30px;}.all-cats .link{border:none;background:none;background-image:none;height:30px;line-height:30px;background-color:#FFFFFF;}.popup-content{border:none;background-color:#FFFFFF;}.menu-list .menu{background:none;background-color:#FFFFFF;height:30px;}.menu-list .menu .link{background:none;background-color:#FFFFFF;}.skin-box-bd .menu-list{background:none;}.menu-list .menu-selected .link .title{background:none;color:#000000;background-color:#E5E5E5;}.all-cats .all-cats-trigger{background:none;background-color:#FFFFFF;}.menu-list .menu-selected{background:none;background-color:#E5E5E5;}.menu-list .menu-selected .link{background:none;background-color:#E5E5E5;}.menu-list .menu-selected.menu-hover .link{background:none;background-color:#E5E5E5;}.menu-list .menu-hover{background:none;background-color:#E5E5E5;height:30px;}.menu-list .menu-hover .link{background:none;background-color:#E5E5E5;}.menu-list .link .popup-icon{margin-top:8px;}.all-cats .link .popup-icon{margin-top:8px;}.all-cats{background:none;}.all-cats-hover .all-cats-trigger{background-image:none;background-color:#E5E5E5;}.all-cats-hover .link{background-image:none;background-color:#E5E5E5;}.all-cats-hover{height:30px;line-height:30px;}.popup-content .cats-tree .fst-cat-icon{background:none;}.popup-content .cats-tree .fst-cat{background:none;background-color:#FFFFFF;background-image:none;}.menu-popup-cats .sub-cat{background:none;background-color:#FFFFFF;background-image:none;height:30px;line-height:30px;border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#ECECEC;}.popup-content .cats-tree .fst-cat-hd:hover{background:none;}.popup-content .cats-tree .cat-hd-hover .fst-cat-name{background:none;color:#FFFFFF;}.popup-content .cats-tree .cat-hd-hover .fst-cat-hd{background:none;}.cats-tree .fst-cat-hd .fst-cat-icon{margin-top:13.5px;}.popup-content .cats-tree .snd-pop-inner .snd-cat .snd-cat-icon{background:none;}.popup-content .cats-tree .snd-pop-inner{background:none;background-color:#FFFFFF;}.cats-tree .snd-cat-hd .snd-cat-icon{margin-top:13.5px;}.menu-list .link .title{color:#000000;height:30px;line-height:30px;}.menu-list .menu-hover .link .title{color:#FFFFFF;}.menu-list .menu .title{font-size:16px;font-family:宋体;font-weight:normal;font-style:normal;}.all-cats .link .title{color:#000000;}.all-cats-hover .link .title{color:#FFFFFF;}.all-cats .title{font-size:16px;font-family:宋体;font-weight:normal;font-style:normal;}.menu-list .menu-selected.menu-hover .link .title{color:#000000;}.popup-content .cats-tree .fst-cat-name{color:#4C4C4C;height:30px;line-height:30px;}.menu-popup-cats .sub-cat a{color:#4C4C4C;}.menu-popup-cats .sub-cat-hover a{color:#FFFFFF;}.popup-content .cats-tree .cat-hd-hover{background:none;background-color:#E6E6E6;}.menu-popup-cats .sub-cat-hover{background:none;background-color:#E6E6E6;}.skin-box-bd .popup-content .cats-tree .fst-cat{height:30px;line-height:30px;border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#ECECEC;}.popup-content .cats-tree .fst-cat-hd{height:30px;line-height:30px;}.menu-popup-cats .sub-cat .cat-name{height:30px;line-height:30px;font-size:12px;}.cats-tree .fst-cat .cat-name{font-size:12px;}.popup-content .cats-tree .snd-cat-name{color:#000000;}.popup-content .cats-tree .snd-pop-inner .snd-cat{background-color:#FFFFFF;background-image:none;}.popup-content .cats-tree a.snd-cat-name:hover{color:#FFFFFF;}.popup-content .cats-tree .snd-pop-inner .snd-cat-hd-hover a{color:#FFFFFF;}.popup-content .cats-tree .snd-pop-inner .snd-cat-hd-hover{background-color:#E5E5E5;}.snd-pop-inner .fst-cat-bd .snd-cat{height:30px;line-height:30px;}.snd-pop-inner .fst-cat-bd .snd-cat-hd{height:30px;line-height:30px;}.snd-pop-inner .fst-cat-bd .snd-cat-name{height:30px;line-height:30px;}.skin-box-bd .popup-content .cats-tree .fst-cat .snd-cat{border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#E5E5E5;}
+
+/* 导航栏背景色*/
+.skin-box-bd .menu-list .link{background: none repeat scroll 0 0 #00ad08;}
+/* 导航列表背景色*/
+.skin-box-bd .menu-list{background: none repeat scroll 0 0 #00ad08;}
+/*导航条最右边的一部分背景*/
+.skin-box-bd{background:#000000;}
+
+/* 设置导航条内的“所有分类” */
+/*所有分类背景色*/
+.all-cats .link{background: none repeat scroll 0 0 #00ad08;}
+/*所有分类文字样式*/
+.all-cats .title{color:#颜色代码;font-size:字号px;}
+/* 修改“所有宝贝”右边小图标代码如下： */
+.all-cats .link .popup-icon{background:url(图片连接);}
+
+/* 设置导航条内的一级分类 */
+/*一级分类的分隔线，实际上就是右边框的颜色*/
+.skin-box-bd .menu-list .menu{border-right:1px #006205 solid;}
+/*一级分类的文字样式*/
+.skin-box-bd .menu-list .menu .title{color:#颜色代码;font-size:字号px;}
+/*一级分类所在的li 列表的背景色*/
+.skin-box-bd .menu-list .menu-selected .link{background:#000000;}
+/*一级分类所在的li 列表的文字背景色*/
+.skin-box-bd .menu-list .menu-selected .link .title{background:#000000;}
+/* 修改一级分类的宽度： */
+.menu-list .menu{background:#颜色;margin:0;padding:0px 增加的宽度px;}
+/* 鼠标滑过一级分类导航文字变换背景色代码如下： */
+.menu-list .menu-hover .link{background:#000000;}
+/* 鼠标滑过一级分类导航文字变换颜色代码如下： */
+.menu-list .menu-hover .link .title{color:#FFFFFF;}
+
+/* 设置二级分类的样式
+二级分类文字代码如下： */
+.popup-content .cats-tree .fst-cat .cat-name{font-size:字号px;color:#颜色代码;font-weight:bold/bolder/normal;}
+/* 二级分类背景代码如下： */
+.popup-content{background:#000000;}
+/* 鼠标滑过二级分类导航文字变换背景色代码如下： */
+.popup-content .cats-tree .cat-hd-hover{background:#000000;}
+/* 鼠标滑过二级分类导航文字变换颜色代码如下： */
+.skin-box-bd .popup-content .cats-tree .cat-hd-hover .cat-name{color:#ff0000;}
+/* 修改二级分类的高度： */
+.popup-content .cats-tree{margin:0 0 50px 0;}
+/* 修改二级分类右侧图标代码如下（有三级分类才会显示）： */
+.popup-content .cats-tree .fst-cat-icon{background:url(图片连接);}
+
+/* 设置三级分类的样式
+三级分类文字代码（除去“所有宝贝”分类）如下 */
+.popup-content .cats-tree .snd-pop-inner{font-size:字号px;color:#颜色代码;font-weight:bold/bolder/normal;}
+/* 三级分类文字代码（包括“所有宝贝”分类字体大小）这样就无法改变字体颜色，我们会继续完善该代码！如下 */
+.popup-content .cats-tree .snd-pop-inner{font-size:字号px;color:#颜色;}
+/* 三级分类背景代码： */
+.popup-content .cats-tree .snd-pop-inner{background:#000000;}
+/* 鼠标滑过三级分类导航文字变换背景色代码如下： */
+.popup-content .cats-tree .snd-cat-hd-hover{background:#000000;}
+/* 在三级分类前加上小块白色代码如下： */
+.popup-content .cats-tree .snd-cat-icon{display:block;height:3px;width:3px;}

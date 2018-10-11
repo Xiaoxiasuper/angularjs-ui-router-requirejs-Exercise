@@ -1,0 +1,19 @@
+<div >
+    <h1 >  心算</h1>
+    <button ng-show="btn" ng-click="start()">开始</button>
+    <div ng-show="play">
+        <h2>{{num1}} {{operator1}} {{num2}} {{operator2}} {{num3}} = ?</h2>
+        <input value="" id="cal" autofocus="autofocus" >
+        <button ng-show="input&&time" ng-click="calculate();">计算</button>
+        <button ng-show="!input&&time" ng-click="change()">继续</button>
+        <br/>
+        <div time-dir time="time"></div>
+        <h2 style="width: 30%; float: right;">共答对{{count}}题</h2><br/>
+        <div ng-show="showresult&&time"  style="width: 50%;border-style: solid;">
+            <h2>{{judge}}{{reslut}}</h2>
+            <br/>
+            <br/>
+        </div>
+    </div>
+
+</div>

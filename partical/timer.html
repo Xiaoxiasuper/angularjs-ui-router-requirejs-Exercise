@@ -1,0 +1,20 @@
+<div>
+        <div ng-show="timepiece">
+                <div style="margin:10px 10px;">
+                        <input type="number" ng-model="hour"  style=" height: 32px; width: 80px;margin:0 10px;" min="0" ng-keyup="numbercheck()">时
+                        <input type="number" ng-model="minute"  style=" height: 32px; width: 80px;margin:0 10px;" min="0" max="60" title="请输入0到60之间的整数" ng-keyup="numbercheck()">分
+                        <input type="number" ng-model="second"  style=" height: 32px; width: 80px;margin:0 10px;" min="0" max="60" title="请输入0到60之间的整数" ng-keyup="numbercheck()">秒
+                        <button type="button" class="btn btn-primary" style=" height: 32px; width: 80px;margin:0 10px;" ng-click="start()">开始计时</button>
+                </div>
+                <div style="margin:10px 50px;font-size: 60px;font-weight: 500;">
+                        <span ng-show='hour <= 9'>{{"0"+hour}}</span><span ng-show='hour>9'>{{hour}}</span>:<span ng-show='minute <= 9'>{{"0"+minute}}</span><span ng-show='minute>9'>{{minute}}</span>:<span ng-show='second <= 9'>{{"0"+second}}</span><span ng-show='second>9'>{{second}}</span>
+                </div>
+        </div>
+        <div ng-show="!timepiece">
+                <h1>公历:  {{mydate|date:'yyyy年M月d日'}} </h1>
+                <h1>农历： {{leap.Animal}}年 {{leap.IMonthCn}} {{leap.IDayCn}}   {{leap.Term}}</h1> 
+                <h2>星期{{myddy}}  {{festival}}</h2>
+                <h2>{{mydate|date:'hh:mm:ss'}} </h2>
+                
+        </div>
+</div>
