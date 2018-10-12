@@ -76,6 +76,9 @@ define(['app','jquery','bootstrap'],function(app){
             })
         }
 
+        $scope.copy=function(){
+            
+        }
         
     })
 })

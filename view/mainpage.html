@@ -1,0 +1,73 @@
+<div style="margin-left:10px;width:950px;float:left;">
+	<div ng-repeat="editg in goods" class="col-xs-3" style="border:1px solid">
+		<span >{{$index+1}}</span>
+		<button type="submit" class="btn btn-success"  ng-click="add($index)">后面添加</button>
+		<button type="submit" class="btn btn-danger"  ng-click="delet($index)">删除</button>
+		<div>
+			<label  class="col-sm-2 control-label">图片地址</label>
+			<div class="col-sm-10" style="margin-bottom: 1px">
+				<input  class="form-control" ng-model="editg.imgUrl">
+			</div>
+		</div>
+		<div>
+			<label  class="col-sm-2 control-label">宝贝地址</label>
+			<div class="col-sm-10" style="margin-bottom: 1px">
+				<input  class="form-control" ng-model="editg.href">
+			</div>
+		</div>
+		<div>
+			<label  class="col-sm-2 control-label">标题</label>
+			<div class="col-sm-10">
+				<input  class="form-control"  ng-model="editg.title">
+			</div>
+		</div>
+		<div>
+			<label  class="col-sm-2 control-label">价钱</label>
+			<div class="col-sm-10">
+				<input  class="form-control" ng-model="editg.money">
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+<table width="950" border="0" cellspacing="0" style="width:948px;height:60px;">
+    <tbody>
+        <tr ng-repeat="tr in trArr" >
+			<td width="237" height="307" align="center" valign="middle" ng-repeat="good in goods.slice(tr,tr+4)">
+                 <a ng-href="{{good.href}}" target="_blank"><img src="{{good.imgUrl}}"  style="width:220px;height: 220px;border: 0" /></a>
+                 <div style="margin-top:15px;width:237px;height: 70px;">
+                    <p><span><span style="color:rgb(68,68,68);"><span style="font-size:14px;">{{good.title}}</span></span></span></p>
+                    <p style="margin-left:130px;"><span style="color:rgb(153,153,153);"><strong><span style="font-family:arial;">￥{{good.money}}</span></strong></span></p>
+                 </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+
+<div style="margin:5px;float: left;">
+	<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" ng-click="changecode()">
+	代码
+  </button></div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<h4 class="modal-title" id="myModalLabel">code</h4>
+	  </div>
+	  <div class="modal-body">
+		<textarea class="form-control" rows="10" ng-model="code"></textarea>
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+		<button type="button" class="btn btn-primary" ng-click="copy()">复制</button>
+	  </div>
+	</div>
+  </div>
+</div>

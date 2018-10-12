@@ -8,6 +8,17 @@ define(["angularAMD",'router'], function (ngAmd) {
     })
     app.config(['$stateProvider',function($stateProvider) {
         $stateProvider
+            .state('mainpage', {
+                url: '/mainpage',
+                views: {
+                    '': ngAmd.route({
+                        templateUrl:'view/mainpage.html',
+                        controller: 'mainpageController',
+                        controllerUrl:'controller/mainpageController.js',
+                    })
+                }
+                
+            })
             .state('help', {
                 url: '/help',
                 views: {
